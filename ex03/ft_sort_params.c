@@ -6,7 +6,7 @@
 /*   By: yusyamas <yuppiy2000@icloud.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/19 21:04:11 by yusyamas          #+#    #+#             */
-/*   Updated: 2022/10/20 11:50:33 by yusyamas         ###   ########.fr       */
+/*   Updated: 2022/10/20 11:55:00 by yusyamas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -80,7 +80,7 @@ void	quicksort(int *tab, int left, int right, char *argv[])
 int	main(int argc, char **argv)
 {
 	int	i;
-	int	tab[100];
+	int	tab[1000000];
 
 	i = 1;
 	while (i < argc)
