@@ -6,7 +6,7 @@
 /*   By: yusyamas <yuppiy2000@icloud.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/19 00:30:32 by yusyamas          #+#    #+#             */
-/*   Updated: 2022/10/19 00:33:45 by yusyamas         ###   ########.fr       */
+/*   Updated: 2022/10/20 14:00:05 by yusyamas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,10 +25,12 @@ void	ft_putstr(char *str)
 		ft_putchar(*str);
 		str += 1;
 	}
+	ft_putchar('\n');
 }
 
 int	main(int argc, char **argv)
 {
 	if (argc >= 1)
 		ft_putstr(argv[0]);
+	return (0);
 }

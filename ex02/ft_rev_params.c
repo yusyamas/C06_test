@@ -6,7 +6,7 @@
 /*   By: yusyamas <yuppiy2000@icloud.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/19 13:27:26 by yusyamas          #+#    #+#             */
-/*   Updated: 2022/10/19 13:37:01 by yusyamas         ###   ########.fr       */
+/*   Updated: 2022/10/20 13:48:51 by yusyamas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,4 +38,5 @@ int	main(int argc, char **argv)
 		ft_putstr(argv[i]);
 		i -= 1;
 	}
+	return (0);
 }
